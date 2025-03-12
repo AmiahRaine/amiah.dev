@@ -1,0 +1,16 @@
+:root {
+    --darker: #301c31;
+    --dark: #553c52;
+    --light: #ad93a7;
+    --lighter: #e7d4e0;
+    --accent: #87386b;
+    --highlight: #b85683;
+}
+
+@font-face {
+    font-family: 'FreeMono';
+    src: url('/fonts/FreeMono.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

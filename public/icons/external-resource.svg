@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="48"
+   height="48"
+   viewBox="0 0 48 48"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   sodipodi:docname="external-resource.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title1">External Link Icon</title>
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#808080"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#808080"
+     inkscape:document-units="px"
+     inkscape:zoom="13.427975"
+     inkscape:cx="23.607432"
+     inkscape:cy="24.650031"
+     inkscape:window-width="1920"
+     inkscape:window-height="1008"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect12"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0.40449719,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,1,1,0,0.40449719,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path5"
+       style="fill:#e7d4e0;fill-opacity:1;stroke-width:9.88121;stroke-linecap:round;stroke-linejoin:round"
+       d="m 28.580078,11.021844 c -1.021278,0 -1.84375,0.822472 -1.84375,1.84375 v 1.021484 c 0,1.021278 0.822472,1.84375 1.84375,1.84375 h 5.648438 c -6.491052,6.490117 -12.981408,12.980753 -19.472657,19.470703 -6.54e-4,6.55e-4 -0.0013,0.0013 -0.002,0.002 l -1.621094,1.621093 c -0.566911,0.566911 -0.566911,1.479964 0,2.046875 l 1.283204,1.283204 c 0.566911,0.566911 1.479964,0.566911 2.046875,0 l 1.621093,-1.621094 C 26.734739,29.881077 29.60362,27.011974 37.556641,19.058953 v 5.648438 c 0,1.021276 0.822475,1.84375 1.84375,1.84375 h 1.021484 c 1.021276,0 1.84375,-0.822474 1.84375,-1.84375 V 13.887078 12.865594 c 0,-1.021276 -0.822474,-1.84375 -1.84375,-1.84375 h -1.021484 z"
+       sodipodi:nodetypes="sssscccssssccsssscsscs" />
+    <path
+       id="rect5-7"
+       style="fill:#e7d4e0;fill-opacity:1;stroke-width:12.2336;stroke-linecap:round;stroke-linejoin:round"
+       d="m 7.0507812,15.728875 c -0.7124681,0 -1.2851562,0.574641 -1.2851562,1.28711 v 0.05664 2.080078 25.392578 c -0.019494,0.113967 -0.03125,0.229915 -0.03125,0.34961 v 0.607422 c 0,0.120152 0.011609,0.237185 0.03125,0.351562 v 0.355469 c 0,0.744248 0.5975487,1.34375 1.3417969,1.34375 h 2.0214843 26.3789058 0.763672 c 0.712469,0 1.28711,-0.572688 1.28711,-1.285156 v -0.765625 -0.607422 -13.25 c 0,-0.712468 -0.574641,-1.285156 -1.28711,-1.285156 h -2.136718 c -0.712469,0 -1.285157,0.572688 -1.285157,1.285156 V 42.846063 H 10.472656 V 20.43786 h 11.199219 c 0.712468,0 1.287109,-0.572688 1.287109,-1.285157 v -2.136718 c 0,-0.712469 -0.574641,-1.28711 -1.287109,-1.28711 H 9.1289062 7.1074219 Z" />
+  </g>
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>External Link Icon</dc:title>
+        <dc:date>March 2nd, 2025</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Amiah</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:relation>https://amiah.dev</dc:relation>
+        <dc:description>Icon for https://amiah.dev</dc:description>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="48"
+   height="48"
+   viewBox="0 0 48 48"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   sodipodi:docname="up.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title1">Code Icon</title>
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#808080"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#808080"
+     inkscape:document-units="px"
+     inkscape:zoom="6.2204439"
+     inkscape:cx="19.934269"
+     inkscape:cy="14.789941"
+     inkscape:window-width="1920"
+     inkscape:window-height="1008"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="&lt;/&gt;"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       d="m 3.1292733,38.394771 c -0.6029639,0 -1.2049805,-0.243212 -1.6367188,-0.726563 C 1.0613354,37.185435 0.85388265,36.57059 0.85388266,35.96313 c 0,-0.607457 0.20660174,-1.223305 0.63867184,-1.707031 C 8.531858,26.440475 14.88032,19.355631 22.387136,10.947411 v -0.002 l 0.0293,-0.03125 0.99414,-1.1113282 c 0.0048,-0.0039 0.225733,-0.171462 0.226563,-0.171875 8.38e-4,-4.17e-4 0.160701,-0.06241 0.228516,-0.07227 0.135627,-0.01971 0.226257,-0.0018 0.291015,0.01367 0.129518,0.03098 0.178932,0.06471 0.222656,0.08984 0.08745,0.05027 0.127872,0.08579 0.175782,0.125 0.261071,0.2136632 0.732452,0.7074742 1.121093,1.1425782 6.948032,7.769004 13.880466,15.551558 20.8223,23.326166 0.863489,0.966716 0.863488,2.445391 0,3.412109 -0.863489,0.966714 -2.411902,0.966715 -3.275391,0 C 11.779387,2.4497688 73.131645,71.140771 24.03952,16.173909 17.631011,23.35233 11.194961,30.506118 4.7680383,37.668048 4.3361168,38.151717 3.7322372,38.394771 3.1292733,38.394771 Z"
+       style="fill:#e7d4e0;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       id="path3"
+       sodipodi:nodetypes="ssscccccsccssccscccs" />
+  </g>
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Code Icon</dc:title>
+        <dc:date>March 2nd, 2025</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Amiah</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:relation>https://amiah.dev</dc:relation>
+        <dc:description>Icon for https://amiah.dev</dc:description>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

@@ -1,0 +1,76 @@
+/* Default / Mobile */
+
+.PersonalInfo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 0.8rem;
+    margin: 0.2rem;
+    padding: 0.5rem;
+    border-radius: 5rem;
+    background: var(--accent);
+    transition: background 0.3s ease-in-out;
+}
+
+.PersonalInfo:hover {
+    background: var(--highlight);
+}
+
+.PersonalInfo img {
+    font-size: xx-small;
+    font-family: FreeMono;
+    text-align: center;
+    margin-left: 0.6rem;
+    object-fit: cover;
+    width: 1.7rem;
+    height: 1.7rem;
+}
+
+.PersonalInfo span {
+    font-family: FreeMono;
+    font-size: medium;
+    color: var(--lighter);
+}
+
+.PersonalInfo a {
+    font-family: FreeMono;
+    font-size: medium;
+    text-decoration: none;
+    color: var(--lighter);
+}
+
+.PersonalInfo a:hover {
+    text-decoration: underline;
+}
+
+/* Tablets */
+@media (min-width: 786px) and (max-width: 1023px) {
+    .PersonalInfo img {
+        font-size: x-small;
+    }
+    
+    .PersonalInfo span {
+        font-size: medium;
+    }
+    
+    .PersonalInfo a {
+        font-size: medium;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    .PersonalInfo img {
+        font-size: small;
+    }
+    
+    .PersonalInfo span {
+        font-size: large;
+    }
+    
+    .PersonalInfo a {
+        font-size: large;
+    }
+    
+}

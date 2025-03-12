@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="48"
+   height="48"
+   viewBox="0 0 48 48"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   sodipodi:docname="code.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title1">Code Icon</title>
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#808080"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#808080"
+     inkscape:document-units="px"
+     inkscape:zoom="16.75"
+     inkscape:cx="24.507463"
+     inkscape:cy="24"
+     inkscape:window-width="1920"
+     inkscape:window-height="1008"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="&lt;/&gt;"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path9"
+       style="color:#000000;fill:#e7d4e0;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none;paint-order:stroke fill markers;fill-opacity:1"
+       d="M 13.787109 13.400391 C 13.179641 13.400391 12.563812 13.606984 12.080078 14.039062 L 3.890625 21.355469 L 2.7792969 22.347656 A 0.750075 0.750075 0 0 0 2.7773438 22.347656 L 2.7460938 22.376953 L 1.6347656 23.371094 C 1.6308756 23.375894 1.4633034 23.596826 1.4628906 23.597656 C 1.4624739 23.598494 1.400481 23.758357 1.390625 23.826172 C 1.370914 23.961802 1.3888049 24.052429 1.4042969 24.117188 C 1.4352728 24.246707 1.4690047 24.296118 1.4941406 24.339844 C 1.5444116 24.427294 1.5799327 24.467715 1.6191406 24.515625 C 1.6975565 24.611445 1.7858704 24.705678 1.8964844 24.818359 C 2.1177123 25.043721 2.4177226 25.329455 2.7617188 25.636719 L 12.080078 33.960938 C 13.046798 34.82443 14.525466 34.824429 15.492188 33.960938 C 16.458906 33.097445 16.458907 31.549038 15.492188 30.685547 L 8.0058594 24 L 15.492188 17.314453 C 16.458906 16.450961 16.458906 14.902554 15.492188 14.039062 C 15.009406 13.607835 14.394579 13.400391 13.787109 13.400391 z "
+       inkscape:label="&lt;" />
+    <path
+       id="path4"
+       style="color:#000000;fill:#e7d4e0;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none;paint-order:stroke fill markers;fill-opacity:1"
+       d="M 34.273438 13.400391 C 33.665969 13.400391 33.051141 13.607834 32.568359 14.039062 C 31.601639 14.902554 31.601639 16.450962 32.568359 17.314453 L 40.054688 24 L 32.568359 30.685547 C 31.601638 31.549038 31.601638 33.097446 32.568359 33.960938 C 33.535079 34.82443 35.01375 34.824431 35.980469 33.960938 L 45.296875 25.636719 C 45.640872 25.329455 45.942836 25.045674 46.164062 24.820312 C 46.274676 24.707633 46.362992 24.611444 46.441406 24.515625 C 46.480616 24.467715 46.516136 24.427295 46.566406 24.339844 C 46.591536 24.296124 46.62528 24.246704 46.65625 24.117188 C 46.67174 24.052428 46.689632 23.961804 46.669922 23.826172 C 46.660022 23.758352 46.598076 23.598494 46.597656 23.597656 C 46.59724 23.596818 46.42451 23.371703 46.423828 23.371094 L 45.3125 22.376953 L 45.28125 22.347656 L 44.167969 21.355469 L 35.980469 14.039062 C 35.496736 13.606989 34.880906 13.400391 34.273438 13.400391 z "
+       inkscape:label="&gt;" />
+    <path
+       id="path11"
+       style="fill:#e7d4e0;fill-opacity:1;color:#000000;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none;paint-order:stroke fill markers"
+       d="M 27.166016 10.410156 A 0.750075 0.750075 0 0 0 26.460938 10.90625 L 17.292969 36.587891 A 0.750075 0.750075 0 0 0 18 37.589844 L 20.550781 37.589844 A 0.750075 0.750075 0 0 0 21.257812 37.09375 L 30.423828 11.412109 A 0.750075 0.750075 0 0 0 29.71875 10.410156 L 27.166016 10.410156 z "
+       inkscape:label="/" />
+  </g>
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Code Icon</dc:title>
+        <dc:date>March 2nd, 2025</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Amiah</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:relation>https://amiah.dev</dc:relation>
+        <dc:description>Icon for https://amiah.dev</dc:description>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

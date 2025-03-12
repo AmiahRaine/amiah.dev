@@ -1,0 +1,47 @@
+
+.Project {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: baseline;
+
+    width: 30svw;
+    padding: 1rem;
+    margin: 0.2rem;
+    background: var(--darker);
+    border-radius: 1rem;
+    
+    font-family: FreeMono;
+}
+
+.TitleSection {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.TitleSection a {
+    color: var(--lighter);
+    text-decoration: none;
+}
+
+.TitleSection span {
+    vertical-align: 0.1rem;
+}
+
+.TitleSection img {
+    display: inline;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.SkillsSection {
+    color: var(--light);
+    font-size: medium;
+}
+
+.DescriptionSection {
+    color: var(--lighter);
+    font-size: large;
+}
