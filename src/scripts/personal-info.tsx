@@ -38,7 +38,7 @@ export function AmiahInfoDynamic() {
     }, [])
 
     return (
-        <div>
+        <aside>
             <div class={styles.ProfilePictureName}>
                 <img class={styles.ProfilePicture} src="/images/profile-picture.png" alt="Amiah's Profile" />
                 <div class={styles.NameTitle}>
@@ -53,7 +53,7 @@ export function AmiahInfoDynamic() {
             </div>
             {visible && isSmallScreen && <AmiahPersonalInfo />}
             {!isSmallScreen && <AmiahPersonalInfo />}
-        </div>
+        </aside>
     );
 }
 
