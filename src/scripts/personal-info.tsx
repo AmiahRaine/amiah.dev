@@ -12,10 +12,12 @@ export function PersonalInfo({info, icon, alt, link}: PersonalInfoProps) {
     // If PersonalInfo comes with a link
     if (link) {
         return ( 
-            <div className={styles.PersonalInfo}>
-                <img src={icon} alt={alt|| "Icon"} />
-                <a href={link} rel="noopener noreferrer" target="_blank" >{info}</a>
-            </div>
+            <a href={link} rel="noopener noreferrer" target="_blank" >
+                <div className={styles.PersonalInfo}>
+                    <img src={icon} alt={alt|| "Icon"} />
+                    <span>{info}</span>
+                </div>
+            </a>
         );
     }
     // If no link

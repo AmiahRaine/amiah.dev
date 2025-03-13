@@ -33,14 +33,14 @@
     color: var(--lighter);
 }
 
-.PersonalInfo a {
+a {
     font-family: FreeMono;
     font-size: medium;
     text-decoration: none;
     color: var(--lighter);
 }
 
-.PersonalInfo a:hover {
+a:hover {
     text-decoration: underline;
 }
 
