@@ -1,46 +1,13 @@
 
 /* Default/Mobile */
 
-aside {
-    background: var(--dark);
+html {
+    background: var(--lighter);
 }
 
-.ProfilePicture {
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    align-items: center;
-}
-
-.ProfilePicture img {
-    width: 5rem;
-    height: 5rem;
-    margin: 0.5rem;
-    border-radius: 50%;
-}
-
-.NameTitle {
-    display: flex;
-    flex-direction: column;
-    font-family: FreeMono;
-    margin: 0.5rem;
-}
-
-.NameTitle span {
-    color: var(--lighter);
-    font-size: x-large;
-}
-
-.NameTitle small {
-    color: var(--light);
-    font-size: medium;
-
-}
-
-aside button {
-    position: fixed;
-    background: none;
-    border: none;
-    top: 0vh;
-    right: 0vw;
+/* Desktop */
+@media (min-width: 1024px) {
+    main {
+        margin-left: 18.7rem;
+    }
 }

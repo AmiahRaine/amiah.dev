@@ -44,6 +44,75 @@
     text-decoration: underline;
 }
 
+/* CSS for aside w/ my info */
+
+aside {
+    background: var(--dark);
+    display: flex;
+    flex-direction: column;
+    padding: 0.2rem;
+    border-bottom: 0.5rem solid var(--highlight);
+}
+
+aside .Spacer {
+    flex-grow: 2;
+}
+
+.ProfilePictureName {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    flex-grow: 0;
+}
+
+.ProfilePicture {
+    width: 5rem;
+    height: 5rem;
+    margin: 0.5rem;
+    border-radius: 50%;
+}
+
+.NameTitle {
+    display: flex;
+    flex-direction: column;
+    font-family: FreeMono;
+    margin: 0.5rem;
+}
+
+.NameTitle span {
+    color: var(--lighter);
+    font-size: x-large;
+}
+
+.NameTitle small {
+    color: var(--light);
+    font-size: medium;
+
+}
+
+aside button {
+    background: none;
+    color: var(--lighter);
+    border: none;
+    flex-grow: 0;
+    margin: 0.5rem;
+}
+
+.ToggleArrow {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.Info {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.2rem;
+    background: var(--darker);
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
 /* Tablets */
 @media (min-width: 786px) and (max-width: 1023px) {
     .PersonalInfo img {
@@ -71,6 +140,42 @@
     
     .PersonalInfo a {
         font-size: large;
+    }
+
+    aside {
+        position: fixed;
+        width: 18rem;
+        height: 100vh;
+        top: 0;
+        border-bottom: none;
+        border-right: 0.5rem solid var(--highlight);
+    }
+
+    .ProfilePictureName {
+        flex-direction: column;
+        justify-content: left;
+    }
+
+    .ProfilePicture {
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .NameTitle {
+        align-items: center;
+    }
+
+    .NameTitle span {
+        font-size: xx-large;
+    }
+
+    .NameTitle small {
+        font-size: large;
+    }
+
+    .Info {
+        width: 16rem;
+        margin-left: 0.5rem;
     }
     
 }
