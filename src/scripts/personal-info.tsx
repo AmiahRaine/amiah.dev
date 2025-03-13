@@ -27,20 +27,34 @@ export function PersonalInfo({info, icon, alt, link}: PersonalInfoProps) {
     );
 }
 
-// Returns just personal info on large screens; returns a toggle button with info for small screens
+// Returns just personal info on large screens; returns a toggle button for the info on small screens
 export function AmiahInfoDynamic() {
     const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth <= 1023);
+    const {visible, toggleVisibility} = useInfoToggle();
     useEffect(() => {
         const isScreenSizeSmall = () => setIsSmallScreen(window.innerWidth <= 1023);
         window.addEventListener("resize", isScreenSizeSmall);
         return () => window.removeEventListener("resize", isScreenSizeSmall);
     }, [])
 
-    if (isSmallScreen) {
-        return <PersonalInfoToggle />;
-    }
-    return <AmiahPersonalInfo />;
-
+    return (
+        <div>
+            <div class={styles.ProfilePictureName}>
+                <img class={styles.ProfilePicture} src="/images/profile-picture.png" alt="Amiah's Profile" />
+                <div class={styles.NameTitle}>
+                    <span>Amiah Raine</span>
+                    <small>Computer Science, BS</small>
+                </div>
+                <span class={styles.Spacer} />
+                {isSmallScreen && <button onClick={toggleVisibility}>
+                        <img class={styles.ToggleArrow} src={visible ? "/icons/up.svg" : "/icons/down.svg"} alt={visible ? "▲" : "▼"} />
+                    </button> 
+                }
+            </div>
+            {visible && isSmallScreen && <AmiahPersonalInfo />}
+            {!isSmallScreen && <AmiahPersonalInfo />}
+        </div>
+    );
 }
 
 // Used for button to toggle visibility of personal info on small screens
@@ -52,31 +66,11 @@ function useInfoToggle() {
     return { visible, toggleVisibility };
 }
 
-// Element containing toggle and info for small screens
-function PersonalInfoToggle() {
-    const {visible, toggleVisibility} = useInfoToggle();
-
-    return (
-        <div>
-            {visible ? (
-                <div>
-                    <button onClick={toggleVisibility}><img src="/icons/up.svg" alt="▲" /></button>
-                    <AmiahPersonalInfo />
-                </div>
-            ) : (
-                <div>
-                    <button onClick={toggleVisibility}><img src="/icons/down.svg" alt="▼" /></button>
-                </div>
-            )}
-        </div>
-    );
-}
-
 // My info to be displayed
 function AmiahPersonalInfo() {
     return (
         // My Personal Info
-        <div className="Info">
+        <div className={styles.Info}>
             <PersonalInfo 
                 info="Minnesota, USA"
                 icon="/icons/location-pointer.svg"
