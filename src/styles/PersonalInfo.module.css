@@ -56,12 +56,13 @@
 /* CSS for aside w/ my info */
 
 aside {
+    position: sticky;
     background: var(--dark);
     display: flex;
     flex-direction: column;
     padding: 0.2rem;
     border-bottom: 0.5rem solid var(--highlight);
-    top: 0dvh;
+    padding-top: env(safe-area-inset-top, 0);
 }
 
 aside .Spacer {
