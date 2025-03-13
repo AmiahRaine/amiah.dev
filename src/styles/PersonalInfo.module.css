@@ -61,7 +61,7 @@ aside {
     flex-direction: column;
     padding: 0.2rem;
     border-bottom: 0.5rem solid var(--highlight);
-    padding-top: env(safe-area-inset-top);
+    top: 0dvh;
 }
 
 aside .Spacer {
