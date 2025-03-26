@@ -16,12 +16,10 @@ import '../styles/resume.css';
 		{/* This holds the resume and projects */}
 		<main>
 
-			<p>Website is currently under construction 🛠💻</p>
-
 			<section>
 				<h1>Professional Summary</h1>
 				<hr />
-				<p>A senior computer science student with a focus on software engineering, consistently produces quality work due to high motivation and self-drive. This dedication has led to inclusion on the school's dean's list for academic achievement.</p>
+				<p> &emsp; A senior computer science student with a focus on software engineering, consistently produces quality work due to high motivation and self-drive. This dedication has led to inclusion on the school's dean's list for academic achievement.</p>
 			</section>
 
 			<section>
@@ -37,8 +35,10 @@ import '../styles/resume.css';
 					<li>JSON</li>
 					<li>Teamwork</li>
 					<li>Communication</li>
-					<li>Familiar with Linux and Windows operating systems.</li>
 				</ul>
+				
+				<p>Familiar with Linux and Windows operating systems.</p>
+				
 			</section>
 
 			<section>
@@ -52,29 +52,31 @@ import '../styles/resume.css';
 				<h1>Projects</h1>
 				<hr />
 			
-
-				<Project
-					name="Hardware Specification Getter"
-					skills="Java"
-					description="A JavaFX application to display hardware specifications in an interactive GUI. Utilizes OSHI for hardware data collection and Jackson for JSON file management. Features include customizable image display and the ability to reorder or disable hardware information entries. Dependencies are managed with Maven."
-					link="https://github.com/AmiahRaine/hardware-spec-get"
-				/>
-				<Project
-					name="Image Noise Generator"
-					skills="Python"
-					description="A Python application using Tkinter and PIL for image noise generation. Features include a resizable canvas, grayscale option, seed input for custom noise patterns, and the ability to save generated images for external use."
-					link="https://github.com/AmiahRaine/python_noise_generator"
-				/>
-				<Project
-					name="Automated Debian Firefox Install Script"
-					skills="Bash"
-					description="This shell script installs Firefox on Debian based systems using apt. It automatically imports the Mozilla signing key and pins the .deb version, which resolves dependency errors that may happen otherwise."
-					link="https://github.com/AmiahRaine/apt-install-firefox-script"
-				/>
+				<div class="projects">
+					<Project
+						name="Hardware Specification Getter"
+						skills="Java"
+						description="A JavaFX application to display hardware specifications in an interactive GUI. Utilizes OSHI for hardware data collection and Jackson for JSON file management. Features include customizable image display and the ability to reorder or disable hardware information entries. Dependencies are managed with Maven."
+						link="https://github.com/AmiahRaine/hardware-spec-get"
+					/>
+					<Project
+						name="Image Noise Generator"
+						skills="Python"
+						description="A Python application using Tkinter and PIL for image noise generation. Features include a resizable canvas, grayscale option, seed input for custom noise patterns, and the ability to save generated images for external use."
+						link="https://github.com/AmiahRaine/python_noise_generator"
+					/>
+					<Project
+						name="Automated Debian Firefox Install Script"
+						skills="Bash"
+						description="This shell script installs Firefox on Debian based systems using apt. It automatically imports the Mozilla signing key and pins the .deb version, which resolves dependency errors that may happen otherwise."
+						link="https://github.com/AmiahRaine/apt-install-firefox-script"
+					/>
+				</div>
 			</section>
 
 		</main>
-
 	</div>
+
+
 
 </Layout>
