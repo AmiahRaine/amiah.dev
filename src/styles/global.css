@@ -9,8 +9,32 @@
 
 @font-face {
     font-family: 'FreeMono';
-    src: url('/fonts/FreeMono.woff') format('woff');
+    src: url('/fonts/FreeMono/FreeMono.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FreeMono';
+    src: url('/fonts/FreeMono/FreeMonoBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FreeMono';
+    src: url('/fonts/FreeMono/FreeMonoOblique.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FreeMono';
+    src: url('/fonts/FreeMono/FreeMonoBoldOblique.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
     font-display: swap;
 }
