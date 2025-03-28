@@ -29,7 +29,7 @@ export function PersonalInfo({info, icon, alt, link}: PersonalInfoProps) {
     );
 }
 
-// Returns just personal info on large screens; returns a toggle button for the info on small screens
+// Returns face, name and personal info on large screens; returns a toggle button for the info on small screens
 export function AmiahInfoDynamic() {
     const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth <= 1023);
     const {visible, toggleVisibility} = useInfoToggle();
@@ -42,7 +42,15 @@ export function AmiahInfoDynamic() {
     return (
         <aside>
             <div class={styles.ProfilePictureName}>
-                <img class={styles.ProfilePicture} src="/images/profile-picture.png" alt="Amiah's Profile" />
+                <img 
+                    class={styles.ProfilePicture} 
+                    srcSet="/images/profile-picture-1000x.webp 1000w, /images/profile-picture-500x.webp 500w, /images/profile-picture-250x.webp 250w"
+                    sizes="(min-width: 1024px) 12rem, (min-width: 786px), 12rem, 5rem"
+                    src="/images/profile-picture-1000x.webp" 
+                    alt="Amiah"
+                    width="1000" height="1000"
+                    decoding="async" 
+                />
                 <div class={styles.NameTitle}>
                     <span>Amiah Raine</span>
                     <small>Computer Science, BS</small>
