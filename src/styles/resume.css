@@ -6,6 +6,11 @@ html {
     font-family: FreeMono;
 }
 
+hr {
+    border: 0.08rem solid var(--darker);
+    border-radius: 0.1rem;
+}
+
 main {
     margin-left: 2rem;
     margin-right: 2rem;
@@ -14,6 +19,7 @@ main {
 section h1 {
     font-weight: bold;
     margin-bottom: -0.2rem;
+    padding-left: 0.1rem;
 }
 
 section p {
