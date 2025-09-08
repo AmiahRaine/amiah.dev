@@ -2,6 +2,7 @@
 import { AmiahInfoDynamic } from '../scripts/personal-info.tsx';
 import { Project } from '../scripts/project.tsx';
 import Layout from '../layouts/Layout.astro';
+import Skill from '../components/Skill.astro';
 import "../styles/global.css";
 import '../styles/resume.css';
 ---
@@ -25,19 +26,36 @@ import '../styles/resume.css';
 			<section>
 				<h1>Skills</h1>
 				<hr />
-				<ul>
-					<li>Java</li>
-					<li>Python</li>
-					<li>C++</li>
-					<li>Bash</li>
-					<li>GitHub</li>
-					<li>SQL</li>
-					<li>JSON</li>
-					<li>Teamwork</li>
-					<li>Communication</li>
-				</ul>
-				
-				<p>Experienced with Linux and Windows operating systems.</p>
+				{/* Languages (Programming, markup, etc) */}
+				<div class="skills-list"> 
+					<Skill skill="Java"/>
+					<Skill skill="Kotlin"/>
+					<Skill skill="Python"/>
+					<Skill skill="C++"/>
+					<Skill skill="JavaScript"/>
+					<Skill skill="SQL"/>
+					<Skill skill="JSON"/>
+					<Skill skill="Bash"/>
+				</div>
+				{/* Frameworks, libraries, tools, systems, etc */}
+				<div class="skills-list">
+					<Skill skill="Spring Boot"/>
+					<Skill skill="RESTful APIs"/>
+					<Skill skill="React"/>
+					<Skill skill="Android Development"/>
+					<Skill skill="GitHub"/>
+					<Skill skill="Linux"/>
+					<Skill skill="Windows"/>
+				</div>
+				{/* Soft skills */}
+				<div class="skills-list">
+					<Skill skill="Collaboration"/>
+					<Skill skill="Communication"/>
+					<Skill skill="Detail-Oriented"/>
+					<Skill skill="Problem-Solving"/>
+					<Skill skill="Organization"/>
+					
+				</div>
 				
 			</section>
 
