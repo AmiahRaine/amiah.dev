@@ -1,111 +1,16 @@
 ---
-import { AmiahInfoDynamic } from '../scripts/personal-info.tsx';
-import { Project } from '../scripts/project.tsx';
-import Layout from '../layouts/Layout.astro';
-import Skill from '../components/Skill.astro';
-import "../styles/global.css";
-import '../styles/resume.css';
+
 ---
 
-<Layout>
-	<noscript style="background: #721010; color: #eee7e7; width: 100vw; padding: 1rem">Please enable JavaScript in your browser to view this content.</noscript>
-
-	<div>
-		{/* This is in an aside and holds my picture and info*/}
-		<AmiahInfoDynamic client:only />
-
-		{/* This holds the resume and projects */}
-		<main>
-
-			<section>
-				<h1>Professional Summary</h1>
-				<hr />
-				<p> &emsp; Graduated <i>summa cum laude</i> with a Bachelor's of Computer Science. Strong skills in back-end development, alongside experience with front-end technologies. Academic achievements reflect a commitment to excellence, analytical thinking, and problem-solving skills.</p>
-			</section>
-
-			<section>
-				<h1>Skills</h1>
-				<hr />
-				{/* Languages (Programming, markup, etc) */}
-				<div class="skills-list"> 
-					<Skill skill="Java"/>
-					<Skill skill="Kotlin"/>
-					<Skill skill="Python"/>
-					<Skill skill="C++"/>
-					<Skill skill="JavaScript"/>
-					<Skill skill="SQL"/>
-					<Skill skill="JSON"/>
-					<Skill skill="Bash"/>
-				</div>
-				{/* Frameworks, libraries, tools, systems, etc */}
-				<div class="skills-list">
-					<Skill skill="Spring Boot"/>
-					<Skill skill="RESTful APIs"/>
-					<Skill skill="React"/>
-					<Skill skill="Android Development"/>
-					<Skill skill="GitHub"/>
-					<Skill skill="Linux"/>
-					<Skill skill="Windows"/>
-				</div>
-				{/* Soft skills */}
-				<div class="skills-list">
-					<Skill skill="Collaboration"/>
-					<Skill skill="Communication"/>
-					<Skill skill="Detail-Oriented"/>
-					<Skill skill="Problem-Solving"/>
-					<Skill skill="Organization"/>
-					
-				</div>
-				
-			</section>
-
-			<section>
-				<h1>Education</h1>
-				<hr />
-				<p><b>Computer Science, BS</b><br/>Lakeland University, Wisconsin, 2025</p>
-			</section>
-
-			<section>
-				<h1>Projects</h1>
-				<hr />
-			
-				<div class="projects">
-					<Project
-						name="Budget Tracker"
-						skills="Spring Boot, RESTful APIs, React, Java, JavaScript"
-						description="Budget Tracker is a web app that helps users track their expenses and view their total balance. It utilizes a React front-end and a RESTful Spring Boot back-end. The back-end makes use of MariaDB and Hibernate JPA for data persistence."
-						link="https://github.com/AmiahRaine/budget-tracker"
-					/>
-					<Project
-						name="To-do Notes App"
-						skills="Android, Kotlin, Jetpack Compose"
-						description="Android to-do and notes app using Kotlin and Jetpack Compose, featuring automatically generated weekly task notes and long-term, user-defined reminders. Utilizes Android Room for data persistence."
-						link="https://github.com/AmiahRaine/ephemeral-notes"
-					/>
-					<Project
-						name="Hardware Specification Getter"
-						skills="Java"
-						description="Interactive JavaFX app that displays detailed hardware specs using OSHI for real-time data collection. Features customizable hardware panels with options for icons, order, and visibility. Data persistence handled with Jackson JSON, and dependencies managed with Maven."
-						link="https://github.com/AmiahRaine/hardware-spec-get"
-					/>
-					<Project
-						name="Image Noise Generator"
-						skills="Python"
-						description="A Python Tkinter app for generating customizable image noise patterns using PIL. Supports grayscale, seed-based reproducible noise, dynamic canvas resizing, and image export, enabling users to experiment with image noise for fun, graphics, or testing."
-						link="https://github.com/AmiahRaine/python_noise_generator"
-					/>
-					<Project
-						name="Automated Debian Firefox Install Script"
-						skills="Bash"
-						description="Shell script that imports Mozilla's signing key and configures package pinning to solve dependency issues with the Firefox .deb package. Provides clear and user friendly output."
-						link="https://github.com/AmiahRaine/apt-install-firefox-script"
-					/>
-				</div>
-			</section>
-
-		</main>
-	</div>
-
-
-
-</Layout>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Amiah</title>
+	</head>
+	<body>
+		<h1>Astro</h1>
+	</body>
+</html>
