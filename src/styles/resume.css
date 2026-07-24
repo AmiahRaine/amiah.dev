@@ -1,0 +1,9 @@
+html {
+    background: var(--background-main);
+}
+
+body {
+    font-family: 'FreeMono', 'Courier New', Courier, monospace;
+    font-size: large;
+    color: var(--primary-below);
+}

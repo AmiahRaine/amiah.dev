@@ -1,0 +1,43 @@
+:root {
+    --primary-below: #392b5e;
+    --primary-main: #5a4278;
+    --primary-above: #74558a;
+
+    --secondary-below: #a351b0;
+    --secondary-main: #bb68bd;
+    --secondary-above: #cf7ec1;
+
+    --background-main: #e3cfda;
+}
+
+@font-face {
+    font-family: 'FreeMono';
+    src: local('FreeMono'), url('/fonts/FreeMono/FreeMono.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FreeMono';
+    src: local('FreeMono Bold'), url('/fonts/FreeMono/FreeMonoBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FreeMono';
+    src: local('FreeMono Italic'), url('/fonts/FreeMono/FreeMonoOblique.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FreeMono';
+    src: local('FreeMono Bold Italic'), url('/fonts/FreeMono/FreeMonoBoldOblique.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}

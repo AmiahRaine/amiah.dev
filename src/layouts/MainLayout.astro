@@ -1,0 +1,32 @@
+---
+import '../styles/global.css';
+
+interface Props {
+    title: string;
+}
+
+const { title } = Astro.props;
+---
+
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, viewport-fit=cover" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="stylesheet" href="/src/styles/global.css">
+		<meta name="generator" content={Astro.generator} />
+		<title>Amiah</title>
+
+		<meta property="og:title" content={title} />
+		<meta property="og:description" content="Amiah is a software developer with full-stack experience. She is especially experienced with Java, Kotlin, Python, JavaScript, HTML, CSS, and many more." />
+		<meta property="og:locale" content="en_US" />
+		<meta property="og:site_name" content="Amiah's Portfolio" />
+	</head>
+	<body>
+		<slot />
+	</body>
+</html>
+
+
