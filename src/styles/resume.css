@@ -1,15 +1,17 @@
 html {
-    background: var(--background-main);
+    background: var(--primary-above);
 }
 
 body {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-
+    position: relative;
     font-family: 'FreeMono', 'Courier New', Courier, monospace;
     font-size: large;
     color: var(--text-main);
+}
+
+hr {
+    border-color: var(--text-main);
+    border-radius: 10%;
 }
 
 aside {
@@ -19,33 +21,35 @@ aside {
     align-items: center;
     align-content: center;
 
-
+    position: fixed;
     height: 100vh;
-    background: var(--primary-above);
-    border-right: 5px solid var(--secondary-main);
-    color: var(--text-aside);
+    /*(Viewport - paper size) halved to get left side width (+ extra space for design and looks)*/
+    width: calc(calc(calc(100vw - 11in) / 2) + 10rem);
+    min-width: 20rem;
 
-    
-    flex-basis: clamp(18rem, 20rem, 20%);
-    
+    background: var(--primary-above);
+    color: var(--text-aside);
+    overflow-y: scroll;
 }
 
 .main-info {
     display: flex;
     flex-direction: column;
-
     justify-content: center;
     align-items: center;
     align-content: center;
+
+    margin-top: 5.7rem;
 }
 
 .amiah-face {
-    border-radius: 50%;
     aspect-ratio: 1;
     width: 10em;
     height: 10em;
 
     margin: 1rem;
+
+    border-radius: 50%;
     filter: drop-shadow(0 0 0.3rem var(--primary-below));
 }
 
@@ -66,23 +70,26 @@ aside {
     color: var(--text-aside-below);
 }
 
+
 .pinfo-list {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     gap: 0.5rem;
 
-    background: var(--primary-below);
     padding: 1rem;
+
+    background: var(--primary-below);
     border-radius: 0.75rem;
     border: 0.3rem solid var(--primary-main);
 }
 
 .pinfo-list .pinfo {
-    background: var(--secondary-below);
     padding: 0.5rem;
     padding-left: 1.25rem;
     padding-right: 1.25rem;
+
+    background: var(--secondary-below);
     border-radius: 1rem;
     text-align: center;
     user-select: none;
@@ -112,36 +119,70 @@ label[for="collapse-info-button"] {
 }
 
 main {
-    flex-basis: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: self-start;
+
+    position: relative;
+    left: max(calc(calc(calc(100vw - 11in) / 2) + 10rem), 20rem);
+    width: calc(100vw - max(calc(calc(calc(100vw - 11in) / 2) + 10rem), 21rem));
+    
 }
+
+.resume-body {
+    max-width: 10in;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding-left: 0.5in;
+    padding-right: 0.5in;
+
+    background: var(--background-main);
+    border-radius: 0.5rem;
+    filter: drop-shadow(0 0 1rem var(--primary-below));
+    overflow-x: hidden;
+}
+
+.resume-body section p {
+    text-indent: 2rem;
+    text-wrap: stable;
+}
+
+
 
 @media screen and (max-width: 767px) {
     
+    html {
+        background: var(--background-main);
+    }
+
     body {
         flex-direction: column;
     }
 
     aside {
+        position: sticky;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
         align-content: flex-start;
 
-        border-right: none;
-        border-bottom: 5px solid var(--secondary-main);
-
+        width: 100vw;
         height: auto;
 
-        flex-basis: min(10%, 10rem);
+        border-right: none;
+        border-bottom: 5px solid var(--secondary-main);
+        overflow-y: auto;
     }
 
     .main-info {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
-
         gap: 1rem;
+
+        margin-top: auto;
     }
 
     .amiah-face {
@@ -188,4 +229,18 @@ main {
         padding: 0;
     }
 
+    main {
+        background: none;
+        left: 0;
+        width: auto;
+        margin-left: 0.75rem;
+        margin-right: 0.75rem;
+    }
+
+    .resume-body {
+        margin: 0;
+        padding: 0;
+        filter: none;
+        width: auto;
+    }
 }
