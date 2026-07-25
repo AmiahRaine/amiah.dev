@@ -1,9 +1,43 @@
 ---
+import AmiahFace from '../components/AmiahFace.astro';
 import MainLayout from '../layouts/MainLayout.astro';
 
 import '../styles/resume.css';
 ---
 
 <MainLayout title="Amiah">
-	Under construction. Check back soon!
+	<aside>
+		<div class="main-info">
+			<AmiahFace/>
+		
+			<div class="name-major">
+				<div class="name">Amiah Raine</div>
+				<small class="major">Computer Science, BS</small>
+			</div>
+		</div>
+
+		<label for="collapse-info-button">
+			<input type="checkbox" id="collapse-info-button" checked />
+		</label>
+
+		<div class="collapsible-info">
+			<div class="pinfo-list">
+				<div class="pinfo">
+					Minnesota, USA
+				</div>
+				<a class="pinfo" href="mailto:contact@amiah.dev">
+					contact@amiah.dev
+				</a>
+				<a class="pinfo" href="https://github.com/AmiahRaine">
+					GitHub
+				</a>
+				<a class="pinfo" href="https://www.linkedin.com/in/amiahraine">
+					LinkedIn
+				</a>
+			</div>
+		</div>
+	</aside>
+	<main>
+		<p>Work in Progress. Check back soon!</p>
+	</main>
 </MainLayout>

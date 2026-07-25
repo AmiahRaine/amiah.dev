@@ -8,6 +8,11 @@
     --secondary-above: #cf7ec1;
 
     --background-main: #e3cfda;
+    --background-below: #d6bfc8;
+    --text-main: var(--primary-below);
+    --text-aside: var(--background-main);
+    --text-aside-below: var(--background-below);
+
 }
 
 @font-face {
