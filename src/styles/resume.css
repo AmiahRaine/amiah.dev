@@ -122,9 +122,16 @@ main {
     }
 
     aside {
-        flex-direction: row;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+
         border-right: none;
         border-bottom: 5px solid var(--secondary-main);
+
+        height: auto;
 
         flex-basis: min(10%, 10rem);
     }
@@ -133,10 +140,6 @@ main {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
-
-        justify-content: flex-start;
-        align-items: center;
-        align-content: center;
 
         gap: 1rem;
     }
@@ -150,9 +153,16 @@ main {
 
     .name-major {
         margin: 0.5rem;
+        margin-right: 1rem;
     }
 
-    
+
+    .collapsible-info {
+        width: 100%;
+        background: var(--primary-main);
+    }
+
+
 
     /* Unhide toggle button for mobile users */
     label[for="collapse-info-button"] {
