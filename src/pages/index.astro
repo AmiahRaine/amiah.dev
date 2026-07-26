@@ -1,5 +1,6 @@
 ---
 import AmiahFace from '../components/AmiahFace.astro';
+import Project from '../components/Project.astro';
 import WorkExperience from '../components/WorkExperience.astro';
 import MainLayout from '../layouts/MainLayout.astro';
 
@@ -28,13 +29,13 @@ import '../styles/resume.css';
 				<div class="pinfo">
 					Minnesota, USA
 				</div>
-				<a class="pinfo" href="mailto:contact@amiah.dev">
+				<a class="pinfo" href="mailto:contact@amiah.dev" rel="noopener noreferrer" target="_blank">
 					contact@amiah.dev
 				</a>
-				<a class="pinfo" href="https://github.com/AmiahRaine">
+				<a class="pinfo" href="https://github.com/AmiahRaine" rel="noopener noreferrer" target="_blank">
 					GitHub
 				</a>
-				<a class="pinfo" href="https://www.linkedin.com/in/amiahraine">
+				<a class="pinfo" href="https://www.linkedin.com/in/amiahraine" rel="noopener noreferrer" target="_blank">
 					LinkedIn
 				</a>
 			</div>
@@ -45,7 +46,7 @@ import '../styles/resume.css';
 			<section>
 				<h2>Professional Summary</h2>
 				<hr/>
-				<p>Summa cum laude Computer Science graduate. Strong skills in back-end and front-end development. Academic achievements and work experience reflect a commitment to excellence, analytical thinking, and problem-solving skills.</p>
+				<p><i>Summa cum laude</i> Computer Science graduate. Strong skills in back-end and front-end development. Academic achievements and work experience reflect a commitment to excellence, analytical thinking, and problem-solving skills.</p>
 			</section>
 			<section>
 				<h2>Skills</h2>
@@ -93,7 +94,31 @@ import '../styles/resume.css';
 			<section>
 				<h2>Projects</h2>
 				<hr/>
-				<p>Work in Progess. Will be updated soon!</p>
+				<Project 
+					title='Budget Tracker'
+					link='https://github.com/AmiahRaine/budget-tracker'
+					desc='Web application for tracking expenses and reviewing balances. Utilizes a REST API to communicate between the Spring Boot back-end and the React front-end. Uses MariaDB and Hibernate JPA for data persistence.'
+				/>
+				<Project
+					title="To-do Notes App"
+					link="https://github.com/AmiahRaine/ephemeral-notes"
+					desc="Android to-do and notes app using Kotlin and Jetpack Compose. Features automatically generated weekly task pages and long-term, user-created reminders. Uses Android Room for data persistence."
+				/>
+				<Project
+					title="Hardware Specification Getter"
+					link="https://github.com/AmiahRaine/hardware-spec-get"
+					desc="JavaFX application that displays detailed hardware specs. Features customizable information panels with options for icons, order, and visibility. Data persistence handled with Jackson JSON, and dependencies managed with Maven."
+				/>
+				<Project
+					title="Image Noise Generator"
+					link="https://github.com/AmiahRaine/python_noise_generator"
+					desc="Python TKinter application for generating image noise using PIL. Generates seed-based customizable grayscale and color noise. Can be exported to be used for graphics or other purposes."
+				/>
+				<Project
+					title="Auto Firefox Debian Installer Script"
+					link="https://github.com/AmiahRaine/apt-install-firefox-script"
+					desc="Shell script that imports Mozilla's signing key and configures package pinning to solve dependency issues with the Firefox .deb package. Provides user-friendly options and completion status."
+				/>
 			</section>
 		</article>
 	</main>
