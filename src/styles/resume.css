@@ -125,17 +125,19 @@ main {
     align-items: self-start;
 
     position: relative;
+    /* Puts main at the right edge of the aside */
     left: max(calc(calc(calc(100vw - 11in) / 2) + 10rem), 20rem);
+    /* Fill in the remaining width (viewport - aside width) + 1 padding */
     width: calc(100vw - max(calc(calc(calc(100vw - 11in) / 2) + 10rem), 21rem));
     
 }
 
+/* This is the "paper" the resume is on. Prefered width is 11in (including padding) */
 .resume-body {
     max-width: 10in;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
-    padding-left: 0.5in;
-    padding-right: 0.5in;
+    padding: 1rem 0.5in 1rem 0.5in;
 
     background: var(--background-main);
     border-radius: 0.5rem;
@@ -143,12 +145,78 @@ main {
     overflow-x: hidden;
 }
 
+.resume-body section h2 {
+    padding-left: 0.25rem;
+    margin: 0;
+}
+
 .resume-body section p {
+    margin: 0.5rem 0 0.5rem 0;
+    padding: 0 0.75rem 0 0.75rem;
+
     text-indent: 2rem;
     text-wrap: stable;
 }
 
+.skill-lists {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
 
+    margin: 0.5rem 0 0.5rem 0;
+    padding: 0 0.75rem 0 0.75rem;
+}
+
+.skill-lists ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+
+    margin: 0.65rem 0 0.65rem 0;
+    padding: 0;
+}
+
+.skill-lists ul li {
+    padding: 0.2rem 0.4rem 0.2rem 0.4rem;
+
+    background: var(--text-aside-below);
+    border-radius: 0.75rem;
+
+    text-wrap: nowrap;
+    list-style-type: none;
+}
+
+.resume-body section h3 {
+    margin: 0.5rem 0 0.5rem 0;
+    padding: 0 0.75rem 0 0.75rem;
+}
+
+
+.resume-body section .education-detail {
+    margin: 0.5rem 0 0.5rem 0;
+    padding: 0 0.75rem 0 1.25rem;
+}
+
+.work-experience h3 .company-tag {
+    padding: 0.2rem 0.4rem 0.2rem 0.2rem;
+    margin-left: 0.5rem;
+
+    background: var(--background-light-focus);
+    border-radius: 0.33rem 0.75rem 0.75rem 0.33rem;
+
+    text-wrap: nowrap;
+}
+
+.work-experience .date-tag {
+    margin: 0.5rem 0 0.5rem 0;
+    padding: 0 0.75rem 0 0.75rem;
+}
+
+.work-experience .work-detail {
+    margin: 0.5rem 0 0.5rem 0;
+    padding: 0 0.75rem 0 1.25rem;
+}
 
 @media screen and (max-width: 767px) {
     
@@ -186,8 +254,8 @@ main {
     }
 
     .amiah-face {
-        width: 5em;
-        height: 5em;
+        width: 4em;
+        height: 4em;
         margin: 0.5rem;
         margin-left: 1.5rem;
     }
@@ -197,13 +265,19 @@ main {
         margin-right: 1rem;
     }
 
+    .name-major .name {
+        font-size: x-large;
+    }
+
+    .name-major .major {
+        font-size: medium;
+    }
+
 
     .collapsible-info {
         width: 100%;
         background: var(--primary-main);
     }
-
-
 
     /* Unhide toggle button for mobile users */
     label[for="collapse-info-button"] {
@@ -215,8 +289,6 @@ main {
         margin: auto;
         padding: 0;
 
-        
-        margin-right: 1rem;
     }
 
     aside:has(#collapse-info-button:checked) .collapsible-info {
