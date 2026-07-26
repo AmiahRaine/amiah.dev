@@ -145,6 +145,11 @@ main {
     overflow-x: hidden;
 }
 
+::selection {
+    background-color: var(--secondary-main);
+    color: var(--text-aside);
+}
+
 .resume-body section h2 {
     padding-left: 0.25rem;
     margin: 0;
@@ -180,7 +185,7 @@ main {
 .skill-lists ul li {
     padding: 0.2rem 0.4rem 0.2rem 0.4rem;
 
-    background: var(--text-aside-below);
+    background: var(--background-light-focus);
     border-radius: 0.75rem;
 
     text-wrap: nowrap;
@@ -214,6 +219,21 @@ main {
 }
 
 .work-experience .work-detail {
+    margin: 0.5rem 0 0.5rem 0;
+    padding: 0 0.75rem 0 1.25rem;
+}
+
+.project .project-title {
+    margin: 0.5rem 0 0.5rem 0;
+    padding: 0 0.75rem 0 0.75rem;
+}
+
+.project .project-title a {
+    color: var(--primary-below);
+    text-decoration: none;
+}
+
+.project .project-detail {
     margin: 0.5rem 0 0.5rem 0;
     padding: 0 0.75rem 0 1.25rem;
 }
@@ -310,7 +330,7 @@ main {
     }
 
     .resume-body {
-        margin: 0;
+        margin: 0.5rem 0 1.5rem 0;
         padding: 0;
         filter: none;
         width: auto;
