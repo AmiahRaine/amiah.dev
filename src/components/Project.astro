@@ -9,6 +9,14 @@ const { title, link, desc } = Astro.props;
 ---
 
 <div class="project">
-    <h3 class="project-title"><a href={link} rel="noopener noreferrer" target="_blank">{title}</a></h3>
+    <h3 class="project-title">
+        <a href={link} rel="noopener noreferrer" target="_blank">{title}
+            <img class="external-link-icon"
+                src="/icons/external-resource.svg"
+                alt="External Link"
+                width="20px" height="20px"
+            />
+        </a>
+    </h3>
     <div class="project-detail">{desc}</div>
 </div>
