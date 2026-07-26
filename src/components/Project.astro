@@ -1,0 +1,14 @@
+---
+interface Props {
+    title: string;
+    link: string;
+    desc: string;
+}
+
+const { title, link, desc } = Astro.props;
+---
+
+<div class="project">
+    <h3 class="project-title"><a href={link} rel="noopener noreferrer" target="_blank">{title}</a></h3>
+    <div class="project-detail">{desc}</div>
+</div>
