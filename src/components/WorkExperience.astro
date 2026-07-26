@@ -1,0 +1,16 @@
+---
+interface Props {
+    title: string;
+    company: string;
+    date: string;
+    desc: string;
+}
+
+const { title, company, date, desc } = Astro.props;
+---
+
+<div class="work-experience">
+    <h3>{title}<span class="company-tag">@{company}</span></h3>
+    <span class="date-tag">{date}</span>
+    <div class="work-detail">{desc}</div>
+</div>
