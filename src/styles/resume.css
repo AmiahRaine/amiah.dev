@@ -32,7 +32,7 @@ aside {
     overflow-y: scroll;
 }
 
-.main-info {
+.face-name {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -107,8 +107,20 @@ aside {
     text-decoration: none;
 }
 
+#aside-menu-toggle-icon {
+    background-image: url(/icons/up.svg);
+    background-size: contain;
+    width: 1.33em;
+    height: 1.33em;
+}
+
+aside:has(#collapse-info-button:checked) #aside-menu-toggle-icon {
+    background-image: url(/icons/down.svg);
+}
+
 /* Hide toggle button for desktop users */
-label[for="collapse-info-button"] {
+/* Also hide checkbox (for all) to replace with custom icon */
+label[for="collapse-info-button"], input#collapse-info-button {
     width: 0px; height: 0px;
     position: absolute;
     white-space: nowrap;
@@ -238,6 +250,10 @@ main {
     padding: 0 0.75rem 0 1.25rem;
 }
 
+.project .external-link-icon {
+    margin-left: 0.25rem;
+}
+
 @media screen and (max-width: 767px) {
     
     html {
@@ -268,6 +284,16 @@ main {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
+        gap: 0.5rem;
+        justify-content: space-between;
+
+        width: 100%;
+    }
+
+    .face-name {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
         gap: 1rem;
 
         margin-top: auto;
@@ -293,12 +319,6 @@ main {
         font-size: medium;
     }
 
-
-    .collapsible-info {
-        width: 100%;
-        background: var(--primary-main);
-    }
-
     /* Unhide toggle button for mobile users */
     label[for="collapse-info-button"] {
         width: auto; height: auto;
@@ -308,7 +328,11 @@ main {
         overflow: visible;
         margin: auto;
         padding: 0;
+    }
 
+    .collapsible-info {
+        width: 100%;
+        background: var(--primary-main);
     }
 
     aside:has(#collapse-info-button:checked) .collapsible-info {
