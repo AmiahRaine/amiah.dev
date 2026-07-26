@@ -1,5 +1,6 @@
 ---
 import AmiahFace from '../components/AmiahFace.astro';
+import WorkExperience from '../components/WorkExperience.astro';
 import MainLayout from '../layouts/MainLayout.astro';
 
 import '../styles/resume.css';
@@ -49,17 +50,45 @@ import '../styles/resume.css';
 			<section>
 				<h2>Skills</h2>
 				<hr/>
-				<p>Work in Progess. Will be updated soon!</p>
+				<div class="skill-lists">
+					<!-- Languages and the like -->
+					<ul>
+						<li>Java</li><li>Kotlin</li><li>Python</li><li>TypeScript</li><li>HTML&CSS</li><li>SQL</li><li>JSON</li><li>Bash</li>
+					</ul>
+					<!-- Frameworks, libraries, etc -->
+					<ul>
+						<li>Spring Boot</li><li>REST APIs</li><li>Android</li><li>MariaDB</li><li>React</li><li>Git</li>
+					</ul>
+					<!-- Soft Skills -->
+					<ul>
+						<li>Communication</li><li>Collaboration</li><li>Detail-Oriented</li><li>Problem-Solving</li><li>Organization</li>
+					</ul>
+				</div>
 			</section>
 			<section>
 				<h2>Education</h2>
 				<hr/>
-				<p>Work in Progess. Will be updated soon!</p>
+				<h3>Computer Science, BS</h3>
+				<div class="education-detail">Lakeland University, WI, 2023 - 2025</div>
+				<div class="education-detail">Anoka-Ramsey CC, MN, 2021 - 2023</div>
 			</section>
 			<section>
 				<h2>Work Experience</h2>
 				<hr/>
-				<p>Work in Progess. Will be updated soon!</p>
+				<WorkExperience 
+					title='Tech Internship'
+					company='MNOHS'
+					date='June 2026 - August 2026'
+					desc='Worked on creation of new website. Created presentations and communicated technology needs with stakeholders.'
+				/>
+
+				<WorkExperience 
+					title='Customer Care'
+					company='Wyoming Drug'
+					date='June 2022 - October 2023'
+					desc='Provided amiable customer service and processed transactions. Opened and closed store, stocked shelves, faced products, and performed maintenance tasks.'
+				/>
+				
 			</section>
 			<section>
 				<h2>Projects</h2>
