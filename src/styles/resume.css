@@ -84,28 +84,6 @@ aside {
     border: 0.3rem solid var(--primary-main);
 }
 
-.pinfo-list .pinfo {
-    padding: 0.5rem;
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
-
-    background: var(--secondary-below);
-    border-radius: 1rem;
-    text-align: center;
-    user-select: none;
-    cursor: pointer;
-}
-
-.pinfo:hover {
-    background: var(--secondary-above);
-    font-weight: 700;
-    transition: background-color font-weight 0.2s ease;
-}
-
-.pinfo-list a {
-    color: var(--text-aside);
-    text-decoration: none;
-}
 
 #aside-menu-toggle-icon {
     background-image: url(/icons/up.svg);

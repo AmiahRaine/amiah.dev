@@ -1,0 +1,74 @@
+.pinfo-component {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 1rem;
+
+    padding: 0.5rem;
+    padding-left: 0.85rem;
+    padding-right: 0.85rem;
+
+    background: var(--secondary-below);
+    border-radius: 1rem;
+    user-select: none;
+    cursor: pointer;
+}
+
+.pinfo-component:hover {
+    background: var(--secondary-above);
+    font-weight: bold;
+
+    transition: background-color font-weight 0.2s ease;
+}
+
+a.pinfo-component  {
+    color: var(--text-aside);
+    text-decoration: none;
+}
+
+.pinfo-icon {
+    width: 25px;
+    height: 25px;
+}
+
+.pinfo-component:has(.pinfo-icon) .pinfo-label {
+    padding-right: calc(25px + 1rem);
+}
+
+.pinfo-label {
+    align-self: center;
+    flex-basis: 100%;
+    text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+
+    .pinfo-component {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px; 
+
+        padding: 0.5rem;
+        padding-left: 0.85rem;
+        padding-right: 0.85rem;
+
+        border-radius: 1rem;
+    }
+
+    .pinfo-icon {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+    .pinfo-label {
+        grid-area: 1 / 1 / 2 / 2;
+        text-align: center;
+    }
+
+    .pinfo-component:has(.pinfo-icon) .pinfo-label {
+        padding-right: 0px;
+    }
+
+}
