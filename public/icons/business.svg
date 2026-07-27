@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="48"
+   height="48"
+   viewBox="0 0 48 48"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   sodipodi:docname="business.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title1">Email Icon</title>
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#808080"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#808080"
+     inkscape:document-units="px"
+     inkscape:zoom="5.6568543"
+     inkscape:cx="36.327611"
+     inkscape:cy="17.412504"
+     inkscape:window-width="1920"
+     inkscape:window-height="1008"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showgrid="false" />
+  <defs
+     id="defs1">
+    <rect
+       x="5.5522388"
+       y="2.4477612"
+       width="22.507463"
+       height="25.61194"
+       id="rect2" />
+  </defs>
+  <g
+     inkscape:label="Envelope"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-8)">
+    <path
+       d="m 45.920107,36.039799 c -0.371163,0.271971 -0.825623,0.435905 -1.323049,0.435905 H 25.406286 v 1.001048 0.208096 c 0,0.49426 -0.397264,0.893715 -0.891524,0.893715 h -1.029524 c -0.49426,0 -0.891524,-0.399455 -0.891524,-0.893715 V 37.476752 36.475704 H 3.4029416 c -0.4974253,0 -0.9518856,-0.163933 -1.3230483,-0.435905 0.023606,0.02838 0.045724,0.05773 0.070095,0.08543 v 8.945909 c 0,2.202762 1.7751448,3.977908 3.9779068,3.977908 H 41.872105 c 2.202762,0 3.977907,-1.775146 3.977907,-3.977908 V 36.12523 c 0.02437,-0.0277 0.04649,-0.05705 0.07009,-0.08543 z"
+       style="fill:#e3cfda;stroke-width:6.80002;stroke-linecap:square;stroke-opacity:0.366552;paint-order:markers fill stroke"
+       id="path16" />
+    <path
+       d="m 5.1356092,21.477506 c -2.2027621,0 -3.9757164,1.775145 -3.9757164,3.977907 v 7.84629 c 0,1.242649 1.0003998,2.243049 2.2430488,2.243049 H 22.593714 v -1.05362 c 0,-0.49426 0.397264,-0.893715 0.891524,-0.893715 h 1.029524 c 0.49426,0 0.891524,0.399455 0.891524,0.893715 v 1.05362 h 19.190772 c 1.242649,0 2.243049,-1.0004 2.243049,-2.243049 v -7.84629 c 0,-2.202762 -1.772953,-3.977907 -3.975717,-3.977907 z"
+       style="fill:#e3cfda;stroke-width:6.80002;stroke-linecap:square;stroke-opacity:0.366552;paint-order:markers fill stroke"
+       id="path14" />
+    <path
+       d="m 15.085759,16.102222 c -0.855431,0 -1.54407,0.688639 -1.54407,1.54407 0.0038,1.771157 -0.0072,3.542775 0.004,5.313731 h 2.108456 V 18.76175 c 0,-0.272065 0.196922,-0.496221 0.456565,-0.539093 0.01857,-0.003 0.05368,-0.008 0.09054,-0.008 h 15.597774 c 0.03465,0 0.06034,0.0034 0.09054,0.008 0.259645,0.04288 0.456567,0.267028 0.456567,0.539094 v 4.198274 h 2.108454 c 0.0091,-1.770946 0.004,-3.542581 0.004,-5.313733 0,-0.855431 -0.68864,-1.54407 -1.544071,-1.54407 z"
+       style="fill:#e3cfda;stroke-width:1;stroke-linecap:square;stroke-miterlimit:7.8;paint-order:markers fill stroke"
+       id="path10"
+       sodipodi:nodetypes="ssccscsscsccsss" />
+  </g>
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Email Icon</dc:title>
+        <dc:date>March 2nd, 2025</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Amiah</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:relation>https://amiah.dev</dc:relation>
+        <dc:description>Icon for https://amiah.dev</dc:description>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
