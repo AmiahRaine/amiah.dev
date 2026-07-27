@@ -1,5 +1,6 @@
 ---
 import AmiahFace from '../components/AmiahFace.astro';
+import Pinfo from '../components/Pinfo.astro';
 import Project from '../components/Project.astro';
 import WorkExperience from '../components/WorkExperience.astro';
 import MainLayout from '../layouts/MainLayout.astro';
@@ -27,18 +28,25 @@ import '../styles/resume.css';
 
 		<div class="collapsible-info">
 			<div class="pinfo-list">
-				<div class="pinfo">
-					Minnesota, USA
-				</div>
-				<a class="pinfo" href="mailto:contact@amiah.dev" rel="noopener noreferrer" target="_blank">
-					contact@amiah.dev
-				</a>
-				<a class="pinfo" href="https://github.com/AmiahRaine" rel="noopener noreferrer" target="_blank">
-					GitHub
-				</a>
-				<a class="pinfo" href="https://www.linkedin.com/in/amiahraine" rel="noopener noreferrer" target="_blank">
-					LinkedIn
-				</a>
+				<Pinfo 
+					label='Minnesota, USA'
+					img='/icons/location-pointer.svg'
+				/>
+				<Pinfo 
+					label='contact@amiah.dev'
+					link='mailto:contact@amiah.dev'
+					img='/icons/email.svg'
+				/>
+				<Pinfo 
+					label='GitHub'
+					link='https://github.com/AmiahRaine'
+					img='/icons/code.svg'
+				/>
+				<Pinfo 
+					label='LinkedIn'
+					link='https://www.linkedin.com/in/amiahraine'
+					img='/icons/business.svg'
+				/>
 			</div>
 		</div>
 	</aside>

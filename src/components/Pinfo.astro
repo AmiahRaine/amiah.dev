@@ -1,0 +1,26 @@
+---
+import '../styles/global.css';
+import '../styles/pinfo-component.css'
+
+interface Props {
+    label: string;
+    link?: string | undefined;
+    img?: string | undefined;
+    imgalt?: string | undefined;
+}
+
+const { label, link, img, imgalt } = Astro.props;
+---
+
+{ link ? 
+        <a class="pinfo-component" href={link} rel="noopener noreferrer" target="_blank">
+            {img && <img class="pinfo-icon" src={img} alt={imgalt || "icon"} />}
+            <div class="pinfo-label">{label}</div>
+        </a>
+    :   
+        <div class="pinfo-component">
+            {img && <img class="pinfo-icon" src={img} alt={imgalt || "icon"} />}
+            <div class="pinfo-label">{label}</div>
+        </div>
+}
+
